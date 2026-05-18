@@ -18,7 +18,7 @@ table 'Dim_Training Provider_PMS'
 		dataType: int64
 		formatString: 0
 		lineageTag: 17616666-e046-4f59-a492-6fdc6cdfa618
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: ID
 
 		annotation SummarizationSetBy = Automatic
@@ -43,7 +43,7 @@ table 'Dim_Training Provider_PMS'
 		dataType: int64
 		formatString: 0
 		lineageTag: b12afc56-df1a-4da3-9168-db67eb602769
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: New_ID
 
 		annotation SummarizationSetBy = Automatic

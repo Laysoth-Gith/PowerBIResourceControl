@@ -21,7 +21,7 @@ table Dim_Location_SKey
 		dataType: int64
 		formatString: 0
 		lineageTag: 1462ac5e-f342-437c-a254-eed1c81c77a4
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: Location_SKey
 
 		annotation SummarizationSetBy = Automatic

@@ -1,10 +1,10 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
   "name": "1e22a8edeb0ec489c16f",
   "position": {
     "x": 133.7655860349127,
     "y": 18.852867830423939,
-    "z": 1000,
+    "z": 0,
     "height": 53.86533665835411,
     "width": 597.0074812967581,
     "tabOrder": 0
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Trainees Satisfaction Survey Report ",
+                    "value": "TRAINEES' SATISFACTION SURVEY REPORT",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontSize": "18pt",

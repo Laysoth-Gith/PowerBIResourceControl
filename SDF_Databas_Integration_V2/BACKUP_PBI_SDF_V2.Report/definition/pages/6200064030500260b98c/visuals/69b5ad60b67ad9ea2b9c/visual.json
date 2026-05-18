@@ -4,10 +4,10 @@
   "position": {
     "x": 802.59351620947632,
     "y": 248.67830423940148,
-    "z": 6000,
+    "z": 4000,
     "height": 461.44638403990024,
     "width": 477.60598503740647,
-    "tabOrder": 5003
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "tableEx",
@@ -20,13 +20,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Dim_Training Provider_EX"
+                      "Entity": "Dim_Training Provider_Master"
                     }
                   },
                   "Property": "Training Provider"
                 }
               },
-              "queryRef": "Dim_Training Provider_EX.Training Provider",
+              "queryRef": "Dim_Training Provider_Master.Training Provider",
               "nativeQueryRef": "Training Provider"
             }
           ]
@@ -133,23 +133,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "878ac6e69e6a59abe5e6",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Training Provider_EX"
-              }
-            },
-            "Property": "Training Provider"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

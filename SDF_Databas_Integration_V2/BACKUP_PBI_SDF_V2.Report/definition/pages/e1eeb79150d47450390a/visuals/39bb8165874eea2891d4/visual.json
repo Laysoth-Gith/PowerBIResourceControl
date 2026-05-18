@@ -4,10 +4,10 @@
   "position": {
     "x": 166.08478802992519,
     "y": 619.45137157107229,
-    "z": 3000,
+    "z": 2000,
     "height": 45.785536159600994,
     "width": 149.92518703241896,
-    "tabOrder": 4000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "FlowVisual_C29F1DCC_81F5_4973_94AD_0517D44CC06A",

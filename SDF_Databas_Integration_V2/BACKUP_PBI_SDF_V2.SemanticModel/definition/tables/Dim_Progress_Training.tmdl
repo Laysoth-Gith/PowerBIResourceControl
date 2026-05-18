@@ -37,7 +37,7 @@ table Dim_Progress_Training
 		dataType: int64
 		formatString: 0
 		lineageTag: 3507b797-775a-4aef-8fe9-8d9b5f1b2ae2
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: #Trainee Training
 
 		annotation SummarizationSetBy = Automatic
@@ -46,7 +46,7 @@ table Dim_Progress_Training
 		dataType: int64
 		formatString: 0
 		lineageTag: 7c408b9b-03f0-4156-80e9-18268b8afba3
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: #Trainee Training Female
 
 		annotation SummarizationSetBy = Automatic
@@ -55,7 +55,7 @@ table Dim_Progress_Training
 		dataType: int64
 		formatString: 0
 		lineageTag: bc250160-1415-418b-94df-2288d2382671
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: #Trainee Completed
 
 		annotation SummarizationSetBy = Automatic
@@ -64,7 +64,7 @@ table Dim_Progress_Training
 		dataType: int64
 		formatString: 0
 		lineageTag: 7131a6bf-1b5b-43a2-a2db-6917c6677438
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: #Trainee Completed Female
 
 		annotation SummarizationSetBy = Automatic

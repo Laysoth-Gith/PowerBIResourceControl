@@ -172,8 +172,7 @@ table Fact_Proposals_Cost_Master
 				    #"Renamed Columns2" = Table.RenameColumns(#"Duplicated Column",{{"ID - Copy", "New_ID"}, {"Cost of Proposal $", "Total Cost"}, {"SDF Contribution $", "SDF Cost"}, {"% SDF", "SDF Cost (%)"}, {"School Contribution $", "Training Provider Cost"}, {"% School", "Training Provider Cost (%)"}, {"Company Contribution $", "Enterprise Cost"}, {"% Company", "Enterprise Cost (%)"}, {"Unified_ID ", "Unified_ID"}}),
 				    #"Appended Query1" = Table.Combine({#"Renamed Columns2", Fact_Proposal_Cost_PMS_Append}),
 				    #"Changed Type7" = Table.TransformColumnTypes(#"Appended Query1",{{"New_ID", type text}}),
-				    #"Filtered Rows" = Table.SelectRows(#"Changed Type7", each ([Unified_ID] <> "KB-617" and [Unified_ID] <> "KB-618" and [Unified_ID] <> "KB-619" and [Unified_ID] <> "KB-623" and [Unified_ID] <> "KB-624" and [Unified_ID] <> "KB-625" and [Unified_ID] <> "KB-699")),
-				    #"Changed Type8" = Table.TransformColumnTypes(#"Filtered Rows",{{"Total Cost", Currency.Type}, {"Enterprise Cost", Currency.Type}, {"Training Provider Cost", Currency.Type}, {"SDF Cost", Currency.Type}})
+				    #"Changed Type8" = Table.TransformColumnTypes(#"Changed Type7",{{"Total Cost", Currency.Type}, {"Enterprise Cost", Currency.Type}, {"Training Provider Cost", Currency.Type}, {"SDF Cost", Currency.Type}})
 				in
 				    #"Changed Type8"
 				```

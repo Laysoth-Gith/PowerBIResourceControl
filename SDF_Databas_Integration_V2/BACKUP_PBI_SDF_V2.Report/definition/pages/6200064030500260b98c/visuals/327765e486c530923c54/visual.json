@@ -7,7 +7,7 @@
     "z": 4000,
     "height": 109.52618453865337,
     "width": 243.29177057356608,
-    "tabOrder": 5002
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "cardVisual",
@@ -307,28 +307,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "f32f0d4480e9d0765c20",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "d1660e930747b25b952a",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Fact_Proposals_Cost_Master"
-                  }
-                },
-                "Property": "SDF Cost"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
-  }
+  "parentGroupName": "5e503fe00268ecb97d8c"
 }

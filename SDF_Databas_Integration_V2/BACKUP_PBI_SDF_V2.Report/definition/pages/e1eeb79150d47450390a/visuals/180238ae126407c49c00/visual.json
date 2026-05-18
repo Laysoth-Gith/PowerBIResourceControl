@@ -5,9 +5,9 @@
     "x": 0,
     "y": 0,
     "z": 6000,
-    "height": 109.20303554786314,
-    "width": 242.94607908401011,
-    "tabOrder": 9001
+    "height": 121.47303954200505,
+    "width": 271.16708827053657,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "cardVisual",
@@ -316,23 +316,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "180a084bab78038105bd",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "3c5846145cb8170072e7",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Proposals_Awarded_Status_Mapping"
-              }
-            },
-            "Property": "Grand_Total_Approved"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
-  }
+  "parentGroupName": "180a084bab78038105bd"
 }

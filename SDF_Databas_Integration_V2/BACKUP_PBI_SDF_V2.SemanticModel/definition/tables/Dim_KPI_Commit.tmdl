@@ -12,7 +12,7 @@ table Dim_KPI_Commit
 	column 'Attendance Rate Commit'
 		dataType: double
 		lineageTag: 4747db02-d2e4-4ccc-a3e3-2805b7ed2966
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Rate Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -22,7 +22,7 @@ table Dim_KPI_Commit
 	column 'Drop-out (%) Commit'
 		dataType: double
 		lineageTag: 87d31535-1aaa-42ba-bc0c-4bf36baea215
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Drop-out (%) Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -32,7 +32,7 @@ table Dim_KPI_Commit
 	column 'Graduation Rate Commit'
 		dataType: double
 		lineageTag: 0232af61-c809-4de1-8155-28d710523f1b
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Graduation Rate Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -42,7 +42,7 @@ table Dim_KPI_Commit
 	column 'Employment (%) Commit'
 		dataType: double
 		lineageTag: 011cef5c-edff-4f14-b577-5c991976376d
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Employment (%) Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -52,7 +52,7 @@ table Dim_KPI_Commit
 	column 'Satisfaction Commit'
 		dataType: double
 		lineageTag: cb728c17-b0a9-41d1-a666-825db1ee7bbd
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Satisfaction Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -63,7 +63,7 @@ table Dim_KPI_Commit
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
 		lineageTag: 37af264d-6dee-445a-b925-2a9e2cc189ca
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Salary Commit $
 
 		annotation SummarizationSetBy = Automatic
@@ -73,7 +73,7 @@ table Dim_KPI_Commit
 	column '%Salary Increase Commit'
 		dataType: double
 		lineageTag: 312d57f6-28f8-4dda-b59a-c3902bbfac59
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: %Salary Increase Commit
 
 		annotation SummarizationSetBy = Automatic

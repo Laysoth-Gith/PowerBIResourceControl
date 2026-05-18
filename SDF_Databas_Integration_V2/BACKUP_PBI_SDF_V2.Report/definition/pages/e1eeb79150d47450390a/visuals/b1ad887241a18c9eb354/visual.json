@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
   "name": "b1ad887241a18c9eb354",
   "position": {
-    "x": 0.089942158907661,
+    "x": 0,
     "y": 0,
     "z": 6000,
-    "height": 109.51111111111111,
-    "width": 243.2,
+    "height": 126.38104113966183,
+    "width": 266.25908667287979,
     "tabOrder": 0
   },
   "visual": {
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Dim_Training Provider_PMS.Grand Total_TP",
-              "nativeQueryRef": "Grand Total_TP"
+              "nativeQueryRef": " Institution Partners",
+              "displayName": " Institution Partners"
             }
           ]
         }
@@ -202,7 +203,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Total Training Provider'"
+                  "Value": "'Total Partners'"
                 }
               }
             },
@@ -315,23 +316,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "e31bdfe23ebd368d5092",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "34ce0e490d06cd9a5560",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Dim_Training Provider_PMS"
-              }
-            },
-            "Property": "Grand Total_TP"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
-  }
+  "parentGroupName": "e31bdfe23ebd368d5092"
 }

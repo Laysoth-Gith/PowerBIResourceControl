@@ -5,7 +5,7 @@ table Dim_Proposal_Infor
 		dataType: int64
 		formatString: 0
 		lineageTag: e6e49a8c-4d9a-4c4b-94de-64367bb4749b
-		summarizeBy: none
+		summarizeBy: count
 		sourceColumn: ID
 
 		annotation SummarizationSetBy = Automatic

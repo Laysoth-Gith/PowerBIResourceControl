@@ -363,28 +363,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "137d86603b98100b2630",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "f4abc8cf989d78c05a3a",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Fact_Proposals_Cost_Master"
-                  }
-                },
-                "Property": "Trainees_Proposal"
-              }
-            },
-            "Function": 0
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
-  }
+  "parentGroupName": "137d86603b98100b2630"
 }

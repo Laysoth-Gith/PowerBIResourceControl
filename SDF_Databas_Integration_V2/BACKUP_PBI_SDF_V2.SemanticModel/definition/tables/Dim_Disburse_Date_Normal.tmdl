@@ -13,7 +13,7 @@ table Dim_Disburse_Date_Normal
 		dataType: int64
 		formatString: 0
 		lineageTag: 60219245-ddb4-4aac-81e5-129775e8ea36
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Year
 
 		annotation SummarizationSetBy = Automatic

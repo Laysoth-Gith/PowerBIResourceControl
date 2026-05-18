@@ -5,9 +5,9 @@
     "x": 0,
     "y": 0,
     "z": 3000,
-    "height": 127.63271162123385,
-    "width": 280.97560975609753,
-    "tabOrder": 10000
+    "height": 140.48780487804876,
+    "width": 300.25824964131994,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "cardVisual",
@@ -366,7 +366,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "d77f389f051d7c405acd",
+        "name": "f7928a21f725e770bbaa",
         "field": {
           "Aggregation": {
             "Expression": {

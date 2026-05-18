@@ -12,7 +12,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Planned Budget 1st(10%)'
 		dataType: double
 		lineageTag: ea24f071-df56-472e-bfd7-d108162a660f
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Planned Budget 1st(10%)
 
 		annotation SummarizationSetBy = Automatic
@@ -22,7 +22,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Planned Budget 2nd(40%)'
 		dataType: double
 		lineageTag: b6633c97-d40f-454a-b20d-e593068099ae
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Planned Budget 2nd(40%)
 
 		annotation SummarizationSetBy = Automatic
@@ -32,7 +32,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Planned Budget 3rd(30%)'
 		dataType: double
 		lineageTag: 6adc12e9-3136-4620-b154-74690e863bc2
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Planned Budget 3rd(30%)
 
 		annotation SummarizationSetBy = Automatic
@@ -42,7 +42,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Planned Budget 4th(20%)'
 		dataType: double
 		lineageTag: 951d4549-601d-4ed2-8bd0-e8aa5c41e594
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Planned Budget 4th(20%)
 
 		annotation SummarizationSetBy = Automatic
@@ -52,7 +52,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Estimated Budget Riels PS'
 		dataType: double
 		lineageTag: 9706651d-354e-4f0c-b294-e346c1ecbae8
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Estimated Budget Riels PS
 
 		annotation SummarizationSetBy = Automatic
@@ -62,7 +62,7 @@ table Dim_Disburse_Projection_Normal
 	column 'Balance Remained & Estimated Budget PS'
 		dataType: double
 		lineageTag: 24bee9b3-3b46-46c6-bf3c-5fbe1b1067f0
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Balance Remained & Estimated Budget PS
 
 		annotation SummarizationSetBy = Automatic

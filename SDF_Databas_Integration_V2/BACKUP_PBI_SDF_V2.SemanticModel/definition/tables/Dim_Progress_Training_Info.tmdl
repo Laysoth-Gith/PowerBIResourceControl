@@ -53,7 +53,7 @@ table Dim_Progress_Training_Info
 		dataType: int64
 		formatString: 0
 		lineageTag: fe6cdaca-d931-46f3-9818-b21ea4eac7ae
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Trainees_Proposal
 
 		annotation SummarizationSetBy = Automatic

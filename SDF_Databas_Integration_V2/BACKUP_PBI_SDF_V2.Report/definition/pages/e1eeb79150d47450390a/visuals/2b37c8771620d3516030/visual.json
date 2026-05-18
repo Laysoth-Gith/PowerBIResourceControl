@@ -3,11 +3,11 @@
   "name": "2b37c8771620d3516030",
   "position": {
     "x": 0,
-    "y": 2.6687614088696421,
-    "z": 12001,
-    "height": 263.04239401496261,
-    "width": 158.90274314214463,
-    "tabOrder": 12001
+    "y": 4.997523128595259,
+    "z": 8000,
+    "height": 262.57808547463719,
+    "width": 159.51005192384503,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "listSlicer",
@@ -43,7 +43,7 @@
               },
               "queryRef": "Dim Date.Quarter",
               "nativeQueryRef": "Quarter",
-              "active": true
+              "active": false
             },
             {
               "field": {
@@ -58,7 +58,7 @@
               },
               "queryRef": "Dim Date.Month",
               "nativeQueryRef": "Month",
-              "active": true
+              "active": false
             }
           ]
         }
@@ -126,7 +126,6 @@
                   }
                 }
               ],
-              "isToggled": true,
               "children": [
                 {
                   "identityValues": [

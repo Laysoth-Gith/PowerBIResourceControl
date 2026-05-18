@@ -53,7 +53,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 434c38bc-b461-47f5-8b3f-c67b5018aa66
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Year
 
 		annotation SummarizationSetBy = Automatic
@@ -102,7 +102,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 3f0e2ddb-feb3-485c-b046-cfeb0297adea
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Trainees_Proposal
 
 		annotation SummarizationSetBy = Automatic
@@ -111,7 +111,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: ab6d4be4-6ee4-4057-977b-f192ef1dac73
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Female_Proposal
 
 		annotation SummarizationSetBy = Automatic
@@ -120,7 +120,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: f708b009-b523-47d0-b8f1-f08550d89728
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Column2
 
 		annotation SummarizationSetBy = Automatic
@@ -137,7 +137,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 043bec55-ffac-496c-a066-8899ca8e011d
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Trainee Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -146,7 +146,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: f8737c26-0807-4199-8db0-f67a2a4989fe
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Female Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -155,7 +155,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: c06a67ee-a79f-4364-81be-64637fe0e64a
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Terminate
 
 		annotation SummarizationSetBy = Automatic
@@ -164,7 +164,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: a7f95337-68f6-4f53-b791-34ebb87a6f43
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Dead
 
 		annotation SummarizationSetBy = Automatic
@@ -173,7 +173,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 76446cd2-7ed8-4ff9-89ab-b1e3d54eadc6
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Resigned
 
 		annotation SummarizationSetBy = Automatic
@@ -181,7 +181,7 @@ table 'Dim_KPI_ Skill'
 	column 'Attendance Rate Commit'
 		dataType: double
 		lineageTag: 38085c52-09fd-45c7-b7a1-db9cd3712d78
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Rate Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -191,7 +191,7 @@ table 'Dim_KPI_ Skill'
 	column 'Drop-out (%) Commit'
 		dataType: double
 		lineageTag: 3f3d05d2-2690-4648-8a85-5b110a243343
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Drop-out (%) Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -201,7 +201,7 @@ table 'Dim_KPI_ Skill'
 	column 'Graduation Rate Commit'
 		dataType: double
 		lineageTag: 8f2b3793-3244-4fe0-b14f-38663470a63f
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Graduation Rate Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -211,7 +211,7 @@ table 'Dim_KPI_ Skill'
 	column 'Employment (%) Commit'
 		dataType: double
 		lineageTag: 57f88e3e-b006-4146-9ffa-9fa0c5198c52
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Employment (%) Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -221,7 +221,7 @@ table 'Dim_KPI_ Skill'
 	column 'Satisfaction Commit'
 		dataType: double
 		lineageTag: 32039b47-69a1-4263-b74c-35d45affe388
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Satisfaction Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -232,7 +232,7 @@ table 'Dim_KPI_ Skill'
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
 		lineageTag: fb09e231-de6b-462c-8ca5-49e057f767c7
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Salary Commit $
 
 		annotation SummarizationSetBy = Automatic
@@ -242,7 +242,7 @@ table 'Dim_KPI_ Skill'
 	column '%Salary Increase Commit'
 		dataType: double
 		lineageTag: adf87e48-1529-4025-b108-054a5551dfdb
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: %Salary Increase Commit
 
 		annotation SummarizationSetBy = Automatic
@@ -261,7 +261,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: b616fb73-465c-4a79-b623-8546da605fd4
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Report
 
 		annotation SummarizationSetBy = Automatic
@@ -269,7 +269,7 @@ table 'Dim_KPI_ Skill'
 	column 'Attendance Report F'
 		dataType: double
 		lineageTag: 709b75e1-c205-4d2d-8ff6-4304b6f4aa6b
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Report F
 
 		annotation SummarizationSetBy = Automatic
@@ -279,7 +279,7 @@ table 'Dim_KPI_ Skill'
 	column 'Attendance Report Rate'
 		dataType: double
 		lineageTag: 90124f9f-1e1d-4f28-a2c9-e03c4657c0da
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Report Rate
 
 		annotation SummarizationSetBy = Automatic
@@ -289,7 +289,7 @@ table 'Dim_KPI_ Skill'
 	column 'Drop-out Report'
 		dataType: double
 		lineageTag: ca2f88fa-7476-466a-83d7-74a69c9c9063
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Drop-out Report
 
 		annotation SummarizationSetBy = Automatic
@@ -299,7 +299,7 @@ table 'Dim_KPI_ Skill'
 	column 'Drop-out Report F'
 		dataType: double
 		lineageTag: 85337992-d7b5-4872-9128-5a5a2a2a2763
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Drop-out Report F
 
 		annotation SummarizationSetBy = Automatic
@@ -318,7 +318,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 5e75106d-11f4-4f19-b7e7-68e39b5db6f3
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Graduation Report
 
 		annotation SummarizationSetBy = Automatic
@@ -326,7 +326,7 @@ table 'Dim_KPI_ Skill'
 	column 'Graduation Report F'
 		dataType: double
 		lineageTag: 277abb70-ee23-493c-8aaa-e0b197fb108c
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Graduation Report F
 
 		annotation SummarizationSetBy = Automatic
@@ -345,7 +345,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 9d99ce41-9665-46d2-b7ad-4eceebcd5016
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Employment Report
 
 		annotation SummarizationSetBy = Automatic
@@ -354,7 +354,7 @@ table 'Dim_KPI_ Skill'
 		dataType: int64
 		formatString: 0
 		lineageTag: 666a79fe-616d-4176-9917-112861828cc5
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Employment Report F
 
 		annotation SummarizationSetBy = Automatic
@@ -378,7 +378,7 @@ table 'Dim_KPI_ Skill'
 	column 'Satisfaction Report'
 		dataType: double
 		lineageTag: 00d3f67c-8852-4c43-9aa8-9f0adcaa9c91
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Satisfaction Report
 
 		annotation SummarizationSetBy = Automatic
@@ -396,7 +396,7 @@ table 'Dim_KPI_ Skill'
 	column 'Attendance Rate Actual'
 		dataType: double
 		lineageTag: 254e5d47-0181-420e-ba70-65ba63d459f5
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Rate Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -406,7 +406,7 @@ table 'Dim_KPI_ Skill'
 	column 'Attendance Rate Actual Result'
 		dataType: double
 		lineageTag: 5a8a3efb-203c-4e98-b533-284e3e9999e2
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Attendance Rate Actual Result
 
 		annotation SummarizationSetBy = Automatic
@@ -416,7 +416,7 @@ table 'Dim_KPI_ Skill'
 	column 'Drop-out (%) Actual'
 		dataType: double
 		lineageTag: 6ab459bd-9eb7-4ccf-bb21-45ad05da5f60
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Drop-out (%) Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -434,7 +434,7 @@ table 'Dim_KPI_ Skill'
 	column 'Graduation % Actual'
 		dataType: double
 		lineageTag: 16e14fc3-a538-46d9-baff-60f646aeee7b
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Graduation % Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -452,7 +452,7 @@ table 'Dim_KPI_ Skill'
 	column 'Employment (%) Actual'
 		dataType: double
 		lineageTag: 1f509590-6a63-4f1e-9583-6660d562f68b
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Employment (%) Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -470,7 +470,7 @@ table 'Dim_KPI_ Skill'
 	column 'Salary Actual'
 		dataType: double
 		lineageTag: 59228860-097e-4f19-be17-20cc8752b515
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Salary Actual
 
 		annotation SummarizationSetBy = Automatic
@@ -488,7 +488,7 @@ table 'Dim_KPI_ Skill'
 	column '% Salary Increase Actual'
 		dataType: double
 		lineageTag: 342aa4cf-9d08-48c6-8efd-153a60aaf06e
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: % Salary Increase Actual
 
 		annotation SummarizationSetBy = Automatic

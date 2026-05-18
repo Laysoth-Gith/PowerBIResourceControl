@@ -15,7 +15,7 @@ table Dim_KPI_Date
 		dataType: int64
 		formatString: 0
 		lineageTag: 625aa583-82e0-4350-b7e5-13110b12680f
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Year
 
 		changedProperty = IsHidden
